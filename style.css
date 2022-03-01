@@ -1,0 +1,40 @@
+body
+{
+  color: white;
+  background: #1E9600;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+span
+{
+  font-size: 35px;
+}
+#camera , #result
+{
+  border: 2px dashed rgb(0, 0, 0);
+  width: 370px;
+  height: 320px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+.heading{
+  font-size: 25pt;
+  letter-spacing: 7px;
+  border-radius: 10px 10px 50px 50px;
+}
+.hand_sign_name{
+  font-size: 28px;
+  color: red;
+}
